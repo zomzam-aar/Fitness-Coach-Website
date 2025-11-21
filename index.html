@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كابتن محمود صالح - مدرب اللياقة البدنية</title>
+    
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Cairo Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-icon">💪</span>
+                <span class="brand-text">كابتن محمود صالح</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits">المميزات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programs">البرامج</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">من أنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#packages">الباقات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">الأسئلة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
+                </ul>
+                <a href="https://wa.me/+201012552752" class="btn btn-primary btn-whatsapp ms-3">
+                    <i class="fab fa-whatsapp"></i> احجز الآن
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-animation"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <span class="hero-tag">🏆 مدرب معتمد</span>
+                        <h1 class="hero-title">
+                            حول جسمك إلى <span class="gradient-text">تحفة فنية</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            مع كابتن محمود صالح، ابدأ رحلتك نحو اللياقة المثالية بخطط تدريبية احترافية وتغذية متوازنة
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number">+500</h3>
+                                <p class="stat-label">متدرب راضٍ</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">+8</h3>
+                                <p class="stat-label">سنوات خبرة</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">100%</h3>
+                                <p class="stat-label">نتائج مضمونة</p>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#packages" class="btn btn-primary btn-lg btn-glow">
+                                <span>ابدأ الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a href="#about" class="btn btn-outline-light btn-lg">
+                                <span>اعرف المزيد</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-bg"></div>
+                        <img src="images/mahmoud.png" alt="كابتن محمود صالح" class="hero-image">
+                        <div class="floating-card floating-card-1">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>تدريب شخصي</span>
+                        </div>
+                        <div class="floating-card floating-card-2">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>تغذية صحية</span>
+                        </div>
+                        <div class="floating-card floating-card-3">
+                            <i class="fas fa-chart-line"></i>
+                            <span>متابعة يومية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>اسحب للأسفل</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">لماذا تختارنا</span>
+                <h2 class="section-title">مميزات التدريب معنا</h2>
+                <p class="section-subtitle">نقدم لك تجربة تدريبية متكاملة بأعلى معايير الجودة</p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3 class="benefit-title">تدريب شخصي احترافي</h3>
+                        <p class="benefit-text">برامج تدريبية مخصصة تناسب مستواك وأهدافك مع متابعة دقيقة لكل تمرين</p>
+                        <div class="benefit-number">01</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="benefit-title">خطة تغذية متكاملة</h3>
+                        <p class="benefit-text">نظام غذائي صحي ومتوازن يساعدك على تحقيق أهدافك بشكل أسرع وأكثر فعالية</p>
+                        <div class="benefit-number">02</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="benefit-title">متابعة يومية أونلاين</h3>
+                        <p class="benefit-text">تواصل مستمر ودعم على مدار الساعة لضمان التزامك وتحقيق أفضل النتائج</p>
+                        <div class="benefit-number">03</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="benefit-title">فيديوهات تعليمية</h3>
+                        <p class="benefit-text">شروحات مفصلة بالفيديو لكل تمرين لضمان الأداء الصحيح وتجنب الإصابات</p>
+                        <div class="benefit-number">04</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="benefit-title">تقييم دوري</h3>
+                        <p class="benefit-text">قياس مستمر للتقدم وتعديل البرنامج حسب النتائج لضمان الوصول للهدف</p>
+                        <div class="benefit-number">05</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 class="benefit-title">نتائج مضمونة</h3>
+                        <p class="benefit-text">مع الالتزام والمتابعة، نضمن لك تحقيق أهدافك في الوقت المحدد</p>
+                        <div class="benefit-number">06</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="video-content">
+                        <span class="section-tag">شاهد النتائج</span>
+                        <h2 class="section-title">رحلة التحول تبدأ من هنا</h2>
+                        <p class="section-text">
+                            شاهد كيف ساعدنا مئات المتدربين في تحقيق أهدافهم وتحويل أجسامهم بشكل كامل. 
+                            النجاح يبدأ بخطوة واحدة، وأنت على بُعد خطوة من تحقيق حلمك.
+                        </p>
+                        <ul class="video-features">
+                            <li><i class="fas fa-check"></i> نتائج حقيقية لمتدربين حقيقيين</li>
+                            <li><i class="fas fa-check"></i> برامج مثبتة علمياً</li>
+                            <li><i class="fas fa-check"></i> متابعة احترافية ومستمرة</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="video-wrapper">
+                        <img src="images/Untitled-design-(15).png" alt="Video Thumbnail" class="video-thumbnail">
+                        <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal">
+                            <i class="fas fa-play"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">برامجنا</span>
+                <h2 class="section-title">البرامج التدريبية</h2>
+                <p class="section-subtitle">اختر البرنامج المناسب لك وابدأ رحلتك نحو التحول</p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card program-training">
+                        <div class="program-image">
+                            <img src="images/Group-40.png" alt="برنامج التدريب">
+                            <div class="program-overlay">
+                                <span class="program-tag">الأكثر شعبية</span>
+                            </div>
+                        </div>
+                        <div class="program-content">
+                            <div class="program-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3 class="program-title">برنامج التدريب</h3>
+                            <p class="program-description">
+                                برنامج تدريبي متكامل مصمم خصيصاً لك، يشمل تمارين القوة والكارديو والمرونة 
+                                مع فيديوهات توضيحية ومتابعة يومية لضمان الأداء الصحيح
+                            </p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> جدول تدريب أسبوعي مخصص</li>
+                                <li><i class="fas fa-check-circle"></i> فيديوهات شرح لكل تمرين</li>
+                                <li><i class="fas fa-check-circle"></i> متابعة يومية للأداء</li>
+                                <li><i class="fas fa-check-circle"></i> تحديث البرنامج كل أسبوعين</li>
+                            </ul>
+                            <a href="#packages" class="btn btn-program">
+                                <span>اختر باقتك</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="program-card program-nutrition">
+                        <div class="program-image">
+                            <img src="images/Group-40-(1).png" alt="برنامج التغذية">
+                            <div class="program-overlay">
+                                <span class="program-tag">مميز</span>
+                            </div>
+                        </div>
+                        <div class="program-content">
+                            <div class="program-icon">
+                                <i class="fas fa-apple-alt"></i>
+                            </div>
+                            <h3 class="program-title">برنامج التغذية</h3>
+                            <p class="program-description">
+                                نظام غذائي صحي ومتوازن يتناسب مع هدفك سواء تضخيم أو تنشيف أو خسارة وزن،
+                                مع قائمة وجبات متنوعة وبدائل عديدة تناسب نمط حياتك
+                            </p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> نظام غذائي محسوب السعرات</li>
+                                <li><i class="fas fa-check-circle"></i> وجبات متنوعة وبدائل عديدة</li>
+                                <li><i class="fas fa-check-circle"></i> متابعة يومية للالتزام</li>
+                                <li><i class="fas fa-check-circle"></i> تعديل النظام حسب النتائج</li>
+                            </ul>
+                            <a href="#packages" class="btn btn-program">
+                                <span>اختر باقتك</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-bg"></div>
+                        <img src="images/DSC01869-copy-(1).jpg" alt="كابتن محمود صالح" class="about-image">
+                        <div class="about-badge">
+                            <div class="badge-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="badge-content">
+                                <span class="badge-title">+8 سنوات</span>
+                                <span class="badge-subtitle">خبرة في التدريب</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <span class="section-tag">من أنا</span>
+                        <h2 class="section-title">كابتن محمود صالح</h2>
+                        <h3 class="about-subtitle">مدرب لياقة بدنية معتمد</h3>
+                        <p class="about-text">
+                            مع أكثر من 8 سنوات من الخبرة في مجال التدريب واللياقة البدنية، ساعدت المئات 
+                            من المتدربين في تحقيق أهدافهم وتحويل أجسامهم بشكل كامل.
+                        </p>
+                        <p class="about-text">
+                            أؤمن بأن كل شخص يستحق أن يشعر بالثقة في جسمه، ولذلك أقدم برامج تدريبية مخصصة 
+                            وخطط تغذية متكاملة تناسب مستواك وأهدافك الخاصة.
+                        </p>
+                        <div class="about-achievements">
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>+500 متدرب</h4>
+                                    <p>حققوا أهدافهم معنا</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>شهادات معتمدة</h4>
+                                    <p>في التدريب والتغذية</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>تقييم 5 نجوم</h4>
+                                    <p>من جميع المتدربين</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/+201012552752" class="btn btn-primary btn-lg">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>تواصل معي الآن</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">الباقات</span>
+                <h2 class="section-title">اختر الباقة المناسبة لك</h2>
+                <p class="section-subtitle">جميع الباقات تشمل متابعة يومية وبرامج مخصصة</p>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <!-- Iron Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="package-card package-iron">
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3 class="package-name">الباقة الحديدية</h3>
+                            <p class="package-subtitle">للمبتدئين</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">جنيه</span>
+                            <span class="amount">1200</span>
+                            <span class="period">/شهر</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> برنامج تدريب فقط</li>
+                            <li><i class="fas fa-check"></i> فيديوهات توضيحية</li>
+                            <li><i class="fas fa-check"></i> متابعة أسبوعية</li>
+                            <li><i class="fas fa-times"></i> برنامج تغذية</li>
+                            <li><i class="fas fa-times"></i> متابعة يومية</li>
+                        </ul>
+                        <a href="https://wa.me/+201012552752?text=مرحباً، أريد الاشتراك في الباقة الحديدية" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>اشترك الآن</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Silver Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="package-card package-silver">
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <h3 class="package-name">الباقة الفضية</h3>
+                            <p class="package-subtitle">الأساسية</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">جنيه</span>
+                            <span class="amount">2000</span>
+                            <span class="period">/شهر</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> برنامج تدريب كامل</li>
+                            <li><i class="fas fa-check"></i> برنامج تغذية متكامل</li>
+                            <li><i class="fas fa-check"></i> فيديوهات توضيحية</li>
+                            <li><i class="fas fa-check"></i> متابعة أسبوعية</li>
+                            <li><i class="fas fa-times"></i> متابعة يومية</li>
+                        </ul>
+                        <a href="https://wa.me/+201012552752?text=مرحباً، أريد الاشتراك في الباقة الفضية" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>اشترك الآن</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Gold Package (Featured) -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="package-card package-gold featured">
+                        <div class="package-badge">الأكثر طلباً</div>
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h3 class="package-name">الباقة الذهبية</h3>
+                            <p class="package-subtitle">الأفضل قيمة</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">جنيه</span>
+                            <span class="amount">3500</span>
+                            <span class="period">/شهر</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> برنامج تدريب احترافي</li>
+                            <li><i class="fas fa-check"></i> برنامج تغذية مفصل</li>
+                            <li><i class="fas fa-check"></i> فيديوهات توضيحية</li>
+                            <li><i class="fas fa-check"></i> متابعة يومية كاملة</li>
+                            <li><i class="fas fa-check"></i> تقييم أسبوعي</li>
+                        </ul>
+                        <a href="https://wa.me/+201012552752?text=مرحباً، أريد الاشتراك في الباقة الذهبية" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>اشترك الآن</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Diamond Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="package-card package-diamond">
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3 class="package-name">الباقة الدايموند</h3>
+                            <p class="package-subtitle">VIP</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">جنيه</span>
+                            <span class="amount">5000</span>
+                            <span class="period">/شهر</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> كل مميزات الذهبية</li>
+                            <li><i class="fas fa-check"></i> متابعة مستمرة 24/7</li>
+                            <li><i class="fas fa-check"></i> استشارات غير محدودة</li>
+                            <li><i class="fas fa-check"></i> تعديل فوري للبرامج</li>
+                            <li><i class="fas fa-check"></i> أولوية في الرد</li>
+                        </ul>
+                        <a href="https://wa.me/+201012552752?text=مرحباً، أريد الاشتراك في الباقة الدايموند" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>اشترك الآن</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">الأسئلة الشائعة</span>
+                <h2 class="section-title">أسئلة يطرحها الجميع</h2>
+                <p class="section-subtitle">إجابات واضحة لأكثر الأسئلة شيوعاً</p>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion" data-aos="fade-up">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <span class="accordion-number">01</span>
+                                    هل البرامج مناسبة للمبتدئين؟
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نعم بالتأكيد! نقوم بتصميم البرامج التدريبية حسب مستواك الحالي، سواء كنت مبتدئاً 
+                                    أو متقدماً. كل برنامج يتم تخصيصه خصيصاً لك مع مراعاة قدراتك وأهدافك.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <span class="accordion-number">02</span>
+                                    كم من الوقت أحتاج لرؤية النتائج؟
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    مع الالتزام الكامل بالبرنامج التدريبي والتغذية، ستبدأ في ملاحظة تحسن خلال 
+                                    2-3 أسابيع. النتائج الكبيرة عادة تظهر بوضوح بعد 2-3 شهور من الالتزام المستمر.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <span class="accordion-number">03</span>
+                                    هل أحتاج لمعدات رياضية في المنزل؟
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    يعتمد ذلك على اختيارك. نوفر برامج للجيم وبرامج منزلية أيضاً. إذا كنت تفضل التدريب 
+                                    في المنزل، سنصمم لك برنامجاً بأدوات بسيطة أو بدون أدوات حسب ما هو متاح لديك.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <span class="accordion-number">04</span>
+                                    كيف تتم المتابعة؟
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    المتابعة تتم بشكل كامل عبر الواتساب. ستتلقى برنامجك التدريبي والغذائي، وسنتابع 
+                                    معك يومياً أو أسبوعياً حسب باقتك. يمكنك التواصل معنا في أي وقت للاستفسار أو التوجيه.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    <span class="accordion-number">05</span>
+                                    ماذا لو لم أستطع الالتزام ببعض الوجبات؟
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    لا تقلق! نوفر لك بدائل عديدة لكل وجبة تناسب نمط حياتك وظروفك. نظامنا الغذائي 
+                                    مرن ويمكن تعديله بسهولة ليناسب جدولك اليومي وتفضيلاتك الغذائية.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    <span class="accordion-number">06</span>
+                                    هل يمكنني تغيير الباقة لاحقاً؟
+                                </button>
+                            </h3>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    بالتأكيد! يمكنك الترقية أو تغيير باقتك في أي وقت. سنساعدك على اختيار الباقة 
+                                    الأنسب لك حسب احتياجاتك وأهدافك وميزانيتك.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="cta-background"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="zoom-in">
+                    <div class="cta-content">
+                        <h2 class="cta-title">هل أنت مستعد للتحول؟</h2>
+                        <p class="cta-text">
+                            ابدأ رحلتك اليوم نحو جسم أقوى وحياة أصح. انضم لمئات المتدربين الذين حققوا أهدافهم معنا
+                        </p>
+                        <a href="https://wa.me/+201012552752" class="btn btn-cta btn-lg">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>ابدأ الآن مع كابتن محمود</span>
+                        </a>
+                        <p class="cta-note">
+                            <i class="fas fa-shield-alt"></i>
+                            رضاك مضمون 100% أو استرجاع كامل المبلغ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="footer-about">
+                        <h3 class="footer-brand">
+                            <span class="brand-icon">💪</span>
+                            كابتن محمود صالح
+                        </h3>
+                        <p class="footer-text">
+                            مدرب لياقة بدنية معتمد بخبرة تزيد عن 8 سنوات في مساعدة المتدربين 
+                            على تحقيق أهدافهم وتحويل أجسامهم.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://wa.me/+201012552752" class="social-link" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-links">
+                        <h4 class="footer-title">روابط سريعة</h4>
+                        <ul>
+                            <li><a href="#home">الرئيسية</a></li>
+                            <li><a href="#benefits">المميزات</a></li>
+                            <li><a href="#programs">البرامج</a></li>
+                            <li><a href="#about">من أنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="footer-links">
+                        <h4 class="footer-title">الخدمات</h4>
+                        <ul>
+                            <li><a href="#packages">الباقات</a></li>
+                            <li><a href="#programs">التدريب</a></li>
+                            <li><a href="#programs">التغذية</a></li>
+                            <li><a href="#faq">الأسئلة</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="footer-contact">
+                        <h4 class="footer-title">تواصل معنا</h4>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+201012552752" dir="ltr">+20 101 255 2752</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <a href="https://wa.me/+201012552752">واتساب</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>متاح يومياً من 9 ص - 10 م</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright">
+                            © 2025 كابتن محمود صالح. جميع الحقوق محفوظة.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-links-bottom">
+                            <a href="#">سياسة الخصوصية</a>
+                            <span>|</span>
+                            <a href="#">الشروط والأحكام</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="" id="videoFrame" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
