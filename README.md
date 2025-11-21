@@ -181,13 +181,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- Portfolio: [yourwebsite.com](#)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- Portfolio: [zomzam.com](#)
+- GitHub: [@AhmedAbdelaziz](https://github.com/zomzam-aar)
+- LinkedIn: [Ahmed Abdelaziz](https://www.linkedin.com/in/zomzam/)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/fitness-coach-website/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/zomzam-aar/fitness-coach-website/issues).
 
 ## ⭐ Show Your Support
 
