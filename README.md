@@ -10,7 +10,7 @@
 
 A modern, fully responsive Arabic fitness coaching website with elegant animations and professional design.
 
-[Live Demo](#) | [Features](#-features) | [Installation](#-installation)
+[Live Demo](https://coachmahmoudsaleh.com/) | [Features](#-features) | [Installation](#-installation)
 
 </div>
 
