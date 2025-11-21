@@ -16,6 +16,16 @@ A modern, fully responsive Arabic fitness coaching website with elegant animatio
 
 ---
 
+## 📸 Screenshots
+
+### Full Website Preview
+![Website Screenshot](Screenshot.png)
+
+### Hero Section
+![Hero Section](HeroSection.png)
+
+---
+
 ## 📖 About
 
 A professional fitness coaching website built for **Captain Mahmoud Saleh**, featuring a complete online training platform with membership packages, video integration, and direct WhatsApp booking system. The website is optimized for Arabic (RTL) layout with smooth animations and mobile-first design.
