@@ -585,7 +585,8 @@ a {
 
 .video-thumbnail {
     width: 100%;
-    height: auto;
+    height: 350px;
+    object-fit: cover;
     display: block;
 }
 
@@ -594,13 +595,13 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background: linear-gradient(135deg, var(--primary-color), #ff9a3c);
     border: none;
     border-radius: 50%;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: var(--transition);
     box-shadow: 0 10px 30px rgba(236, 131, 27, 0.4);

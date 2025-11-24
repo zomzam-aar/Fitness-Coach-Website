@@ -71,7 +71,7 @@ $(document).ready(function() {
     const videoFrame = $('#videoFrame');
     
     // You can add your video URL here
-    const videoUrl = 'https://www.youtube.com/embed/8EyhpAPopTU?si=g6TD4zb37Rdsq1Fa';
+    const videoUrl = 'https://www.youtube.com/embed/_4mdmlDgRPk';
     
     videoModal.on('show.bs.modal', function() {
         videoFrame.attr('src', videoUrl);
