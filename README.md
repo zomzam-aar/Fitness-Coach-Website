@@ -42,10 +42,16 @@ A professional fitness coaching website built for **Captain Mahmoud Saleh**, fea
 ### 💼 Core Sections
 - **Hero Section** - Animated background with floating cards and statistics
 - **Benefits Cards** - 6 animated benefit cards with hover effects
-- **Video Section** - YouTube video integration with modal popup
+- **Video Section** - YouTube video integration with direct link
 - **Training Programs** - Detailed program cards for training and nutrition
+- **Journey Steps** - 4-step process showing how to start with the coach
 - **About Section** - Coach profile with achievements and certifications
-- **Membership Packages** - 4 pricing tiers (Iron, Silver, Gold, Diamond)
+- **Membership Packages** - 4 pricing tiers:
+  - **Iron Package**: Training program + Nutrition program
+  - **Silver Package**: Training + Nutrition + Videos + Weekly follow-up
+  - **Gold Package**: All features + Recipe book + Daily follow-up + Weekly assessment
+  - **Diamond Package**: All Gold features + 24/7 support + Unlimited consultations
+- **Testimonials Section** - Before and after transformation images
 - **FAQ Accordion** - 6 commonly asked questions with smooth transitions
 - **CTA Section** - Call-to-action with gradient background
 - **Footer** - Complete contact information and social links
@@ -54,17 +60,20 @@ A professional fitness coaching website built for **Captain Mahmoud Saleh**, fea
 - **Mobile Menu** - Custom slide-in navigation for small screens
 - **Smooth Scrolling** - Animated page navigation
 - **Counter Animation** - Statistics counter on hero section
-- **Video Modal** - Bootstrap modal for video playback
+- **Video Modal** - YouTube Shorts direct link integration
 - **Scroll to Top** - Floating button with smooth scroll
 - **WhatsApp Integration** - Direct booking links throughout the site
 - **SEO Optimized** - Semantic HTML structure
+- **Cache Busting** - Version parameters on all assets (v=1.3)
 
 ## 🎨 Color Scheme
 
 ```css
-Primary Color:    #EC831B (Orange)
+Primary Color:    #FFD700 (Gold)
 Secondary Color:  #1C1C1C (Dark Gray)
-Accent Color:     #DDFE25 (Lime)
+Background:       #0D0D0D (Deep Black)
+Card Background:  #1F1F1F (Dark Gray)
+Text Light:       #E0E0E0 (Light Gray)
 ```
 
 ## 🛠️ Technologies Used
@@ -92,7 +101,9 @@ Coach/
 │   ├── DSC01869-copy-(1).jpg  # About image
 │   ├── Group-40.png       # Training program image
 │   ├── Group-40-(1).png   # Nutrition program image
-│   └── Untitled-design-(15).png  # Video thumbnail
+│   ├── Untitled-design-(15).png  # Video thumbnail
+│   ├── Testimonials_Before.jpeg  # Before transformation
+│   └── Testimonials_After.jpeg   # After transformation
 └── README.md              # Documentation
 ```
 
@@ -137,9 +148,10 @@ Edit `index.html` and replace all instances of:
 Modify CSS variables in `css/style.css`:
 ```css
 :root {
-    --primary-color: #EC831B;
-    --secondary-color: #1C1C1C;
-    --accent-color: #DDFE25;
+    --primary-color: #FFD700;
+    --bg-dark: #0D0D0D;
+    --card-bg: #1F1F1F;
+    --text-dark: #E0E0E0;
 }
 ```
 
@@ -147,7 +159,12 @@ Modify CSS variables in `css/style.css`:
 
 Change video URL in `js/script.js`:
 ```javascript
-const videoUrl = 'https://www.youtube.com/embed/YOUR_VIDEO_ID';
+const videoUrl = 'https://www.youtube.com/embed/_4mdmlDgRPk';
+```
+
+Or update the direct link in `index.html`:
+```html
+<a href="https://youtube.com/shorts/_4mdmlDgRPk" target="_blank" class="video-play-btn">
 ```
 
 #### Modify Packages
